@@ -1,0 +1,72 @@
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<style type="text/css">
+		body {
+			width: 500px;
+			height: 700px;
+			color: white;
+			background-color: black;
+		}
+		.content-box {
+			width: 100%;
+			padding: 10px;
+		}
+		.question-box {
+			width: 100%;
+			min-height: 30px;
+		}
+		.answer-box {
+			width: 100%;
+			min-height: 30px;
+		}
+		.title-box {
+			width: 100%;
+			padding-top: 10px;
+			height: 60px;
+			text-align: center;
+		}
+		.btn-box {
+			text-align: center;
+		}
+		.kkk-box {
+			text-align: center;
+		}
+		.hidden-box {
+			display: none;
+		}
+	</style>
+</head>
+<html>
+    <body>
+    	<div class="title-box">
+    		<h3>랜덤 아재 개그</h3>	
+    	</div>
+    	<div class="content-box">
+    		<div class="question-box">
+	        	Q. <span id="question"></span>
+	        </div>
+	        <div class="answer-box hidden-box" id="answerBox">
+	        	A. <span id="answer"></span> 
+	        </div>
+	        <div class="btn-box">
+	        	<button id="showAnswerBtn" class="btn btn-primary">정답 보기</button>
+	        </div>
+    	</div>
+    	<div class="kkk-box hidden-box" id="afterShowAnswer">
+    		<div>ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ</div>
+    		<div>모두가 웃었습니다. 웃음은 보약입니다.</div>
+    		<div class="score-box">
+    			<span id="plusScore"></span><span id="minusScore"></span>
+    			<button class="btn btn-outline-light" id="laughBtn">웃음</button> 
+    			<button class="btn btn-outline-light" id="seriousBtn">정색</button>
+    		</div>
+    		<div>
+    			<div class="hidden-box" id="showOtherJoke"><button>다른 개그 보기</button></div>
+    			<div class="hidden-box" id="showYourJoke">웃지 않았다구요? 당신의 센스를 보여주세요.</div>
+    		</div>
+    	</div>
+    </body>
+
+    <script src="myscript.js"></script>
+</html>

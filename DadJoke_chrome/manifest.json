@@ -1,0 +1,12 @@
+{
+	"name" : "dadjoke_extension",
+	"version" : "1.0.0",
+	"description" : "Start a day with Wonderful Dad Joke",
+	"manifest_version": 2,
+	"browser_action": {
+      "default_popup": "index.html"
+    },
+	"permissions": [
+        "activeTab", "http://*/*", "https://*/*"
+    ]
+}
